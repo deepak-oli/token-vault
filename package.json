@@ -1,0 +1,32 @@
+{
+  "name": "token-vault",
+  "version": "1.0.0",
+  "description": "An ERC20 token creation factory with integrated staking mechanisms",
+  "scripts": {
+    "start": "hardhat node",
+    "test": "hardhat test",
+    "hardhat": "hardhat",
+    "compile": "hardhat compile",
+    "deploy-local": "hardhat ignition deploy ./ignition/modules/TokenVault.ts --network localhost"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepak-oli/token-vault.git"
+  },
+  "keywords": [
+    "ERC20",
+    "token",
+    "factory",
+    "staking"
+  ],
+  "author": "Deepak Oli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepak-oli/token-vault/issues"
+  },
+  "homepage": "https://github.com/deepak-oli/token-vault#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.18"
+  }
+}
